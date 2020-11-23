@@ -16,11 +16,13 @@ namespace TestMerge.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            var ilv = "Iloveyou";
         }
 
         public IActionResult Index()
         {
             return View();
+            var abc = "hihihhi";
         }
 
         public IActionResult Privacy()
