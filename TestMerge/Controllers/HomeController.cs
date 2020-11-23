@@ -17,12 +17,15 @@ namespace TestMerge.Controllers
         {
             _logger = logger;
             var ilv = "Iloveyou";
+            var merge = "Merge clone";
         }
 
         public IActionResult Index()
         {
+            var abc = "hahaha";
+            var uuu = "uuuuuuuu";
             return View();
-            var abc = "hihihhi";
+            
         }
 
         public IActionResult Privacy()
