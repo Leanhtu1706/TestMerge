@@ -24,14 +24,18 @@ namespace TestMerge.Controllers
         public IActionResult Index()
         {
             var abc = "hihihhi";
-            var def = "hahahaaha";  
+            var def = "hahahaaha";
+            var hhh = "hhh";
             var uuu = "uuuuuuuu";
+            var dung = "dung";
+
             return View();
             
         }
 
         public IActionResult Privacy()
         {
+            var clonedung = "";
             return View();
         }
 
